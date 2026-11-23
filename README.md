@@ -1,16 +1,14 @@
-## Hi there 👋
+### Hi, I'm Dan. I make other people's systems work with yours: healthcare integrations, payments and legacy modernization.
 
-<!--
-**djwirz/djwirz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**What I've shipped**
+- [Holdfast](https://holdfast-production-ba968615.up.railway.app): real-time auctions where a bid counts only once a Stripe test-mode hold covers it · [code](https://github.com/djwirz/holdfast)
+- [Token Keeper](https://djwirz.withered-smoke-b9b4.workers.dev/work/token-keeper/): keeps third-party account connections alive: OAuth tokens refreshed and re-verified on a schedule, state reported through one signed webhook · [code](https://github.com/djwirz/token-keeper)
 
-Here are some ideas to get you started:
+**Building now**
+- [FHIR over MCP](https://github.com/djwirz/fhir-over-mcp): a read-only, patient-scoped MCP server over synthetic FHIR data, with an eval suite that checks every claim
+- [Coverage Check](https://github.com/djwirz/coverage-check) (planned): bulk insurance eligibility checks against an unreliable, rate-limited payer, with FHIR output, on Kubernetes
+- [holdfast-ex](https://github.com/djwirz/holdfast-ex) (planned): Holdfast's problem solved again in Elixir/OTP
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**How I work:** spec first, one thin slice per PR, tests in CI, decisions written down. [More](https://djwirz.withered-smoke-b9b4.workers.dev/how-i-build/)
+
+**Find me:** [Portfolio](https://djwirz.withered-smoke-b9b4.workers.dev) · [LinkedIn](https://www.linkedin.com/in/djwirz)
